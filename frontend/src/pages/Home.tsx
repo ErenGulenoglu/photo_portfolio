@@ -62,7 +62,7 @@ function Home() {
 	return (
 		<div className="flex w-full justify-center items-center flex-col">
 			<div className="flex flex-col w-full items-center justify-center h-[12vh] gap-4">
-				<h3 className=" font-semibold text-3xl md:text-4xl lg:text-5xl">Gokben Sahinkayasi</h3>
+				<h3 className=" font-semibold text-4xl">Gokben Photography</h3>
 			</div>
 			<main className="flex w-[95vw] flex-col gap-4 lg:w-[65vw] md:flex-row">
 				<div className="flex w-full flex-col gap-4 md:w-1/3">
