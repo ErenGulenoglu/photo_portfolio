@@ -1,5 +1,6 @@
 import PhotoCard from "../components/PhotoCard";
 import Footer from "../components/Footer";
+import { useEffect } from "react";
 
 import photo1 from "../assets/photos/DSC03137.jpg";
 import photo2 from "../assets/photos/DSC03167.jpg";
@@ -55,6 +56,9 @@ import photo51 from "../assets/photos/DSC07818-2.jpg";
 import photo52 from "../assets/photos/DSC08102-3.jpg";
 
 function Home() {
+	useEffect(() => {
+		document.title = "Gokben Sahinkayasi - Portfolio";
+	});
 	return (
 		<div className="flex w-full justify-center items-center flex-col">
 			<div className="flex flex-col w-full items-center justify-center h-[12vh] gap-4">
