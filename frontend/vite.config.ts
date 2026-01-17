@@ -6,10 +6,10 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
 	plugins: [react(), tailwindcss()],
-	base: "/photo_portfolio",
 	resolve: {
 		alias: {
 			"@": path.resolve(__dirname, "./src"),
 		},
 	},
+	base: "/photo_portfolio/",
 });
